@@ -6,4 +6,4 @@ before_install:
   - docker build -t AlanFordddd/udemy -f Dockerfile.dev .
 
 script:
-  - docker run AlanFordddd/udemy npm run test -- --coverage
+  - docker run AlanFordddd/udemy-react npm run test -- --coverage
